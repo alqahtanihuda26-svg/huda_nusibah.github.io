@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #005f99;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  color: #005f99;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input, form select {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+#generate-report {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #005f99;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#generate-report:hover {
+  background-color: #004070;
+}
+
+#report-output {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
